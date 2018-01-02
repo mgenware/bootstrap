@@ -5,6 +5,18 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+$blue: #2a5289;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #e83e8c;
+$red: #db606c;
+$orange: #fd7e14;
+$yellow: #e9bd38;
+$green: #43ac6a;
+$teal: #20c997;
+$cyan: #70bfe0;
+$white: #fff;
+
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -31,12 +43,12 @@
 @import "jumbotron";
 @import "alert";
 @import "progress";
-@import "media";
+//@import "media";
 @import "list-group";
 @import "close";
 @import "modal";
 @import "tooltip";
 @import "popover";
-@import "carousel";
+//@import "carousel";
 @import "utilities";
 @import "print";
