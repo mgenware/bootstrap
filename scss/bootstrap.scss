@@ -17,6 +17,12 @@ $teal: #20c997;
 $cyan: #70bfe0;
 $white: #fff;
 
+$code-font-size: 90%;
+$code-padding-y: .2rem;
+$code-padding-x: .4rem;
+$code-color: #4e89ad;
+$code-bg: #f8f9fa;
+
 @import "functions";
 @import "variables";
 @import "mixins";

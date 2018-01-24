@@ -8,9 +8,12 @@ samp {
 
 // Inline code
 code {
+  padding: $code-padding-y $code-padding-x;
   font-size: $code-font-size;
   color: $code-color;
   word-break: break-word;
+  background-color: $code-bg;
+  border-radius: 2px;
 
   // Streamline the style when inside anchors to avoid broken underline and more
   a > & {
